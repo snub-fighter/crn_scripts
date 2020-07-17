@@ -20,6 +20,8 @@ echo -e '
 
 sleep 3
 echo "CHECKING CASINCOIND SERVER_STATE"
-sleep 3
+sleep 6
 
 casinocoind server_state
+echo "PROPOSERS"
+casinocoind server_state | grep proposers
