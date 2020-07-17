@@ -19,7 +19,7 @@ echo -e '
 (((^_(((/(((_/'
 
 sleep 3
-echo "CHECKING CASINCOIND SERVER_STATE"
+echo "CHECKING CASINCOIND SERVER_STATE - 9 SECS"
 sleep 9
 
 casinocoind server_state
