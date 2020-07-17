@@ -25,3 +25,5 @@ sleep 9
 casinocoind server_state
 echo "PROPOSERS"
 casinocoind server_state | grep proposers
+rm validators.txt
+rm crn_validator_update.sh
