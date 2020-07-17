@@ -20,7 +20,7 @@ echo -e '
 
 sleep 3
 echo "CHECKING CASINCOIND SERVER_STATE"
-sleep 6
+sleep 9
 
 casinocoind server_state
 echo "PROPOSERS"
